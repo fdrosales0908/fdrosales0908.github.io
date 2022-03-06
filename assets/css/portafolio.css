@@ -1,0 +1,15 @@
+
+.card{
+    padding: 1rem;
+    margin: 1rem;
+    display: block;
+    margin-left: 0%;
+    width: 50%;
+}
+
+h1{
+    background-color: rgb(177, 177, 202);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}

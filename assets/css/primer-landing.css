@@ -1,0 +1,76 @@
+body{
+    background: radial-gradient(rgb(255, 155, 196), rgb(247, 18, 208), rgb(209, 206, 209));
+    background-position: center;
+    margin:0;
+    height:500px;
+    display:grid;
+    place-content:center;
+}
+.header{
+    height: 100px;
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4D0BAQEyp3pnn-iFeA/company-logo_100_100/0/1630004224171?e=1650499200&v=beta&t=LrlKb7S8az1E0VHHVXb5xtNr4z9vlnd7mVVRw6YDeO4");
+    background-position: center;
+    background-size: 8% ;
+    background-repeat: no-repeat;
+    margin: 80px;
+    padding: 2em;
+    font-size: 2em;
+}
+.header ul{
+    height: 60px;
+    background-size: 1px;
+}
+.header h1{
+    color:rgb(17, 17, 11);
+    text-align: center;
+    font-family: Montserrat,Times New Roman,fantasy;
+    font-size: 100px;
+    width: 100%;
+    font-weight: 400;
+    font-style: italic;
+    border: solid 2px rgb(252, 16, 150);
+    border-collapse: collaps;
+}
+.header h2{
+    text-align: center;
+    font-family: Montserrat,Verdana, Geneva, Tahoma, sans-serif;
+}
+.header p{
+    text-align: center;
+    font-family: Montserrat,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.products {
+    width: 80%;
+    margin: auto;
+}
+.products table{
+    width: 100%;
+    margin: auto;
+    border: solid 1px rgb(252, 4, 128);
+    border-collapse: collaps;
+}
+.products td{
+    width: 70%;
+    padding: 1em;
+}
+.products tr{
+    width: 80%;
+    padding: 1em;
+}
+.products img{
+    width: 60%;
+    border: solid 1px rgb(156, 5, 131);
+    justify-content: normal;
+    margin: auto;
+    background-size: 100px;
+    height: 300px;
+}
+.pie{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(238, 18, 154);
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+ 
