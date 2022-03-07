@@ -26,6 +26,17 @@
   box-sizing: border-box;
 }
 
+body{
+  padding: 1rem;
+}
+
+.encabezado{
+  background-color: #c7e0e6;
+  padding: 1rem;
+}
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
